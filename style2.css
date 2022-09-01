@@ -18,7 +18,13 @@ body{
 }
 .box h1
 {
-    color: white;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.box h2
+{
+    color: black;
     text-transform: uppercase;
     font-weight: 700;
 }
@@ -29,7 +35,7 @@ background: none;
 display: block;
 margin: 20px auto;
 text-align: center;
-border:3px solid #0367fd;
+border:3px solid black;
 padding:14px 10px;
 width:220px;
 outline: none;
@@ -41,7 +47,7 @@ transition:0.25px;
 .box input[type="text"]:focus,.box input[type="password"]:focus{
 
 width:270px;
-border-color: #ffc400ec;
+border-color: green;
 
 }
 .box input[type="submit"]{
@@ -52,7 +58,7 @@ background: none;
 display: block;
 margin: 20px auto;
 text-align: center;
-border:3px solid #ffc400ec;
+border:3px solid black;
 padding:14px 35px;
 outline: none;
 color: white;
@@ -62,5 +68,5 @@ cursor:pointer;
     
 }
 .box input[type="submit"]:hover{
-    background: #ffc400ec;
+    background: green;
 }

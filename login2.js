@@ -5,7 +5,7 @@ var password=document.getElementById("password").value;
 if(username=="sanay"&& password=="sanay123")
 {
     alert("login succesful");
-    window.location.href = "login.html";
+    
 
     
 
@@ -13,6 +13,7 @@ if(username=="sanay"&& password=="sanay123")
 else
 {
     alert("login failed");
+    window.location.replace('https://glocktrigger.github.io/darthdeniz/');
 }
 
 
