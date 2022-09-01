@@ -5,7 +5,7 @@ var password=document.getElementById("password").value;
     if(username=="sanay"&& password=="sanay123")
     {
         alert("login succesful");
-        window.open("https://glocktrigger.github.io/darthdeniz/login.html?")
+        window.open("https://glocktrigger.github.io/darthdeniz/login.html?");
 
     
 
@@ -13,7 +13,7 @@ var password=document.getElementById("password").value;
     else
     {
         alert("login failed");
-        window.open("https://glocktrigger.github.io/darthdeniz/index.html?")
+        window.open("https://glocktrigger.github.io/darthdeniz/index.html?");
     }
 
 
